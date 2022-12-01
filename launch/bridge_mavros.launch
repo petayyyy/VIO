@@ -1,6 +1,6 @@
 <launch>
   <arg name="ns" default="/"/>
-  <arg name="fcu_url" default="/dev/px3_pro:921600"/> 
+  <arg name="fcu_url" default="/dev/pix_cube:921600"/> 
   <arg name="gcs_url" default="tcp-l://0.0.0.0:5760" />   <!-- conect QGC in tcp -->
   <arg name="tgt_system" default="1" />
   <arg name="tgt_component" default="1" />
