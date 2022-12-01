@@ -22,7 +22,7 @@
   </node>
 
   <!-- Launch Realsense Camera -->
-  <include file="$(find realsense2_camera)/launch/rs_d400_and_t265.launch" />
+  <include file="$(find realsense2_camera)/launch/rs_t265.launch" />
 
   <env name="ROSCONSOLE_CONFIG_FILE" value="$(find px4_realsense_bridge)/resource/custom_rosconsole.conf"/>
   <arg name="input_topic" default="[/$(arg cam)/odom/sample]"/>
